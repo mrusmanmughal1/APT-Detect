@@ -3,7 +3,7 @@ import axios from "axios";
 
 const getstats = async () => {
   const baseUrl = import.meta.env.VITE_BASE_URL;
-  const API = `${baseUrl}api/stats/`;
+  const API = `${baseUrl}api/stats`;
 
   const res = await axios.get(API);
   return res;

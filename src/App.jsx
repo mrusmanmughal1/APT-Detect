@@ -22,7 +22,7 @@ function App() {
     },
   });
   return (
-    <>
+    
       <QueryClientProvider client={queryClient}>
         <Router>
           <Routes>
@@ -55,7 +55,7 @@ function App() {
           }}
         />
       </QueryClientProvider>
-    </>
+    
   );
 }
 
